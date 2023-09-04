@@ -11,15 +11,16 @@ h1 {
 }
 
 .change-color {
-    color: chartreuse;
+    color: darkgreen;
 }
 
 .color-changing {
     color: darkblue;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 250px;
 }
 
 .half-width {
@@ -32,7 +33,7 @@ section {
 }
 
 .link-bottom {
-    background-image: linear-gradient(yellow, pink);
+    background-image: linear-gradient(blue, pink);
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 10px;
@@ -42,4 +43,27 @@ section {
 .top-banner {
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.link-button {
+    background-image: linear-gradient(green, purple);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aqua;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.changing-color {
+    color: blue;
+}
+
+.added-picture {
+    background-image: url(image/PngItem_1226499.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
